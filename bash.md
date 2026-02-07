@@ -11,3 +11,4 @@ These shortcuts are provided by GNU Readline and work in many terminal programs.
 | Ctrl + U | Delete from cursor to beginning |
 | Ctrl + K | Delete from cursor to end |
 | Ctrl + R | Reverse search command history |
+| Ctrl + L | Clears the terminal |
