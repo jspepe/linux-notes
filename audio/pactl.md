@@ -17,7 +17,17 @@ Works with:
 
 It does NOT depend on the window manager.
 
----
+## Install and start pipewire
+```bash
+sudo apt update
+sudo apt install pipewire wireplumber pipewire-pulse
+```
+then start them
+```bash
+systemctl --user start pipewire
+systemctl --user start wireplumber
+systemctl --user start pipewire-pulse
+```
 
 ## Check audio server status
 
