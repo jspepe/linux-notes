@@ -22,7 +22,8 @@ It does NOT depend on the window manager.
 sudo apt update
 sudo apt install pipewire wireplumber pipewire-pulse
 ```
-then start them
+then start them because minimal window manager setups (Sway, dwm, etc.) may not auto-start audio services.
+
 ```bash
 systemctl --user start pipewire
 systemctl --user start wireplumber
