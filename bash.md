@@ -22,3 +22,26 @@ alias
 ```bash
 alias occ='docker exec -u www-data nextcloud-app php occ'
 ```
+`occ` is the Nextcloud command-line admin tool.
+
+It runs inside the Nextcloud container and lets you manage the app
+without using the web UI.
+
+| Example           | Command            |
+|-------------------|--------------------|
+| list users        | user:list          |
+| user info         | user:info USERNAME |
+| delete user       | user:delete USERNAME |
+| manage apps       | app:list           |
+| enable app        | app:enable APPNAME |
+| disable app       | app:disable APPNAME |
+| maintenance mode  | maintenance:mode --on |
+| maintenance off   | maintenance:mode --off |
+| background jobs   | background:cron    |
+| system status     | status             |
+
+So running:
+
+occ user:list
+
+actually executes the OCC command inside the Docker container.
