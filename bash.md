@@ -12,3 +12,13 @@ These shortcuts are provided by GNU Readline and work in many terminal programs.
 | Ctrl + K | Delete from cursor to end |
 | Ctrl + R | Reverse search command history |
 | Ctrl + L | Clears the terminal |
+
+## Aliases
+How to check all your Aliases
+```bash
+alias
+```
+### Nextcloud OCC 
+```bash
+alias occ='docker exec -u www-data nextcloud-app php occ'
+```
