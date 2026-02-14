@@ -4,19 +4,11 @@ Running `:ls` shows active buffers.
 
 Example output:
 
+```
 1  hR   "term://~/3178:/bin/zsh"    line 13
 3  #hR  "term://~/3605:/bin/zsh"    line 8
 6  %a   "~/.config/nvim/init.lua"   line 6
-
-## Neovim Buffers (`:ls`)
-
-Running `:ls` shows active buffers.
-
-Example output:
-
-1  hR   "term://~/3178:/bin/zsh"    line 13
-3  #hR  "term://~/3605:/bin/zsh"    line 8
-6  %a   "~/.config/nvim/init.lua"   line 6
+```
 
 | <1> Buffer Number | <2> Status Flags | <3> Buffer Name/Path | <4> Cursor Location |
 |-------------------|------------------|----------------------|---------------------|
